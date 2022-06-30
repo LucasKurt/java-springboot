@@ -1,0 +1,9 @@
+package com.lucaslearning.Web_Services_Spring_Boot_JPA_Hibernate.services.exceptions;
+
+public class DatabaseException extends RuntimeException {
+	private static final long serialVersionUID = 1L;
+
+	public DatabaseException(String msg) {
+		super(msg);
+	}
+}
