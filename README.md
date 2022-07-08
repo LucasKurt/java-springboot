@@ -1,4 +1,4 @@
-# java-dao-jdbc
+# java-springboot
 
 Projeto desenvolvido durante as aulas do Nelio Alves do curso de [Programação orientada a objetos](https://www.udemy.com/course/java-curso-completo/) 
 
