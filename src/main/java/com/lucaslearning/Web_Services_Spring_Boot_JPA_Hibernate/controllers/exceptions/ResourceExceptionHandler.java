@@ -1,4 +1,4 @@
-package com.lucaslearning.Web_Services_Spring_Boot_JPA_Hibernate.services.exceptions;
+package com.lucaslearning.Web_Services_Spring_Boot_JPA_Hibernate.controllers.exceptions;
 
 import java.time.Instant;
 
@@ -9,7 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.lucaslearning.Web_Services_Spring_Boot_JPA_Hibernate.controllers.exceptions.StandardError;
+import com.lucaslearning.Web_Services_Spring_Boot_JPA_Hibernate.services.exceptions.DatabaseException;
+import com.lucaslearning.Web_Services_Spring_Boot_JPA_Hibernate.services.exceptions.ResourceNotFoundException;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {
